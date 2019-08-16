@@ -74,6 +74,7 @@ $(function() {
   });
 
   $(window).scroll(function() {
+    console.log('navi_____'+$('nav').offset().top);
     console.log('navi_height______'+$('.navigation').offset().top);
     console.log('_window_height______'+$(window).height());
     console.log('_______________');
