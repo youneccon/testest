@@ -75,7 +75,7 @@ $(function() {
 
   $(window).scroll(function() {
     console.log('navi_height______'+$('.navigation').offset().top);
-    console.log('_window_height______'$(window).height());
+    console.log('_window_height______'+$(window).height());
     console.log('_______________');
     if ($('.navigation').offset().top < $(window).height() + 10) {
 
